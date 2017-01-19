@@ -1,0 +1,484 @@
+{
+  "name": "Stage 4: Thriving",
+  "description": "Your city is growing! You may now use all metals for crafting. You may use redstone now. You may only create a single Diamond tool however.",
+  "quests": [
+    {
+      "uuid": "4c7bdb43-87d6-4513-a96e-761e8c9bb8b7",
+      "name": "Mining District",
+      "description": "Construct 2 watchtowers nearby the mining district. Construct a blacksmith shop. Extend your mineshaft down to level 20. Connect all buildings with paths.",
+      "x": 105,
+      "y": 60,
+      "icon": {
+        "id": "minecraft:redstone_ore"
+      },
+      "prerequisites": [
+        "9c2cd0fb-9f80-4c21-8c98-a4d578e67669"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ladder"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:furnace"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:ender_pearl"
+        },
+        {
+          "id": "enderio:itemBasicCapacitor",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5536085e-9c67-4c04-b618-bc1935df2903",
+      "name": "Treasury",
+      "description": "Your city demands more tools and resources for your populace. ",
+      "x": 128,
+      "y": 177,
+      "icon": {
+        "id": "ironchest:BlockIronChest",
+        "damage": 1
+      },
+      "prerequisites": [
+        "fe725758-a813-4ef8-b6dd-29ca7eca9ab7",
+        "36ba8030-7f6d-49e9-83b1-d785f0079460",
+        "14c0dd24-ce1d-4c21-8ed6-6e832262af17",
+        "4c7bdb43-87d6-4513-a96e-761e8c9bb8b7",
+        "dc4cba69-3afe-4421-bfc7-7f3d7435f7a9"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:grilledcheeseItem"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "harvestcraft:butteredpotatoItem"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "harvestcraft:applejuiceItem"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:bucket"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:broadsword",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:724,HarvestLevel:3,Attack:7.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:724,HarvestLevel:3,Attack:7.0f},Special:{Categories:[0:\"weapon\",1:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:pickaxe",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Special:{Categories:[0:\"harvest\",1:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:shovel",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Special:{Categories:[0:\"harvest\",1:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:hatchet",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.5f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.5f},Special:{Categories:[0:\"weapon\",1:\"harvest\",2:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_helmet"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_chestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_leggings"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_boots"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:compass"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:clock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "nbt": "{Material:\"manyullyn\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:sword_blade",
+          "nbt": "{Material:\"manyullyn\"}"
+        },
+        {
+          "id": "tconstruct:large_plate",
+          "nbt": "{Material:\"manyullyn\"}"
+        },
+        {
+          "id": "tconstruct:large_sword_blade",
+          "nbt": "{Material:\"manyullyn\"}"
+        },
+        {
+          "id": "tconstruct:tough_binding",
+          "nbt": "{Material:\"manyullyn\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36ba8030-7f6d-49e9-83b1-d785f0079460",
+      "name": "Religion",
+      "description": "Build a cathedral, church, or other large religious structure.",
+      "x": 34,
+      "y": 174,
+      "icon": {
+        "id": "props:props",
+        "damage": 86
+      },
+      "prerequisites": [
+        "9c2cd0fb-9f80-4c21-8c98-a4d578e67669"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:oak_stairs"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:written_book"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone_ore",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 8
+        },
+        {
+          "id": "ic2:ingot",
+          "damage": 5,
+          "amount": 8
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "amount": 8
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 2,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c2cd0fb-9f80-4c21-8c98-a4d578e67669",
+      "name": "City Hall",
+      "description": "Your city has outgrown its old Town Hall.  Either upgrade your Town Hall or build a new City Hall with the following: at least 2 floors, at least 2 offices with desks, a large meeting room, a treasury, a clock or bell tower.  Paths must link the City Hall to all other buidlings within the walls.",
+      "x": 32,
+      "y": 17,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "prerequisites": [
+        "dfd0fe67-4263-40b3-b8ea-608c20024420"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemMachinePart"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemBasicCapacitor",
+          "amount": 4
+        },
+        {
+          "id": "immersiveengineering:wirecoil",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "14c0dd24-ce1d-4c21-8ed6-6e832262af17",
+      "name": "Market District",
+      "description": "Continue to expand your market district. Build an additional shop, bringing the number up to 4. Build a new community building (stables, inn, chapel, etc).",
+      "x": 60,
+      "y": 134,
+      "icon": {
+        "id": "minecraft:gold_nugget"
+      },
+      "prerequisites": [
+        "9c2cd0fb-9f80-4c21-8c98-a4d578e67669"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:bed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:emerald"
+        },
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:ender_pearl"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fe725758-a813-4ef8-b6dd-29ca7eca9ab7",
+      "name": "Farming District",
+      "description": "Upgrade your farm to include at least 20 blocks per player.",
+      "x": 128,
+      "y": 22,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "prerequisites": [
+        "9c2cd0fb-9f80-4c21-8c98-a4d578e67669"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:doughItem",
+          "amount": 16
+        },
+        {
+          "id": "harvestcraft:cheeseItem",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:dye",
+          "damage": 4,
+          "amount": 16
+        },
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:ender_pearl"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc4cba69-3afe-4421-bfc7-7f3d7435f7a9",
+      "name": "Port",
+      "description": "To the seas! The port district must contain: Two docks, with a boat. An office for the harbor master with an lobby, office and bedroom, and your city\u0027s banner outside it. One additional building (house, shop, etc).  Paths must connect all buildings and lead back to City Hall.",
+      "x": 82,
+      "y": 97,
+      "icon": {
+        "id": "minecraft:boat"
+      },
+      "prerequisites": [
+        "9c2cd0fb-9f80-4c21-8c98-a4d578e67669"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:boat"
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_slab"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:bed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:fish",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:ghast_tear",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:blaze_rod",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:diamond",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

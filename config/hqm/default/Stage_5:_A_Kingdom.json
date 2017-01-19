@@ -1,0 +1,20 @@
+{
+  "name": "Stage 5: A Kingdom",
+  "quests": [
+    {
+      "uuid": "5d2710f5-45e9-4521-8ead-8bdb68255d65",
+      "name": "More to come!",
+      "description": "Not quite finished yet! The castle building quests will be added later.",
+      "x": 71,
+      "y": 25,
+      "icon": {
+        "id": "minecraft:stonebrick"
+      },
+      "prerequisites": [
+        "5536085e-9c67-4c04-b618-bc1935df2903"
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

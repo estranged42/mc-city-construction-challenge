@@ -1,0 +1,198 @@
+{
+  "name": "Stage 1: Foundations",
+  "description": "The basics of survival.                                                                In this age you can only use wooden tools. No stone or metals may be used for any purposes.  You can use what you find, but you cannot craft or process any stone or metal.",
+  "quests": [
+    {
+      "uuid": "4f73501b-a9ae-475b-915e-fcbd236cf9a5",
+      "name": "Food",
+      "description": "Once you have a place to live, you need to eat.  Construct a fenced off farm area with 5 wheat planted per person.",
+      "x": 54,
+      "y": 110,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "prerequisites": [
+        "3ba78548-0bcd-45f4-96be-bfd0d4ccb80c"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "required": 24,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extrautils2:WateringCan"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bread",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b824278a-ac25-4f13-9c39-cff7f206d408",
+      "name": "Choose Wisely",
+      "description": "First you must find a suitable place for your city. You will want plenty of flat land, or else you will spend a lot of time felling trees to clear ground for buildings. You will need a mineshaft, so you might want some nearby hills or mountains. You will need a port, so you should have a river or other body of water close by.  You\u0027ll need a farm early on, but can\u0027t use iron to make a bucket so plan accordingly.",
+      "x": 43,
+      "y": 25,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:wooden_axe"
+        },
+        {
+          "id": "minecraft:wooden_sword"
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "13562251-9f83-4e4f-a406-500f17701ad8",
+      "name": "Supplies",
+      "description": "Now you must begin storing supplies for your city. Gather a stack of planks, and 5 bread (along with somewhere to store it all!).",
+      "x": 86,
+      "y": 155,
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "prerequisites": [
+        "4f73501b-a9ae-475b-915e-fcbd236cf9a5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bread"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:chest"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stone_pickaxe"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3ba78548-0bcd-45f4-96be-bfd0d4ccb80c",
+      "name": "Shelter",
+      "description": "The first step in any city is basic shelter. For your first task, construct a simple house (1 per player). The house must have a door, a living area, a bedroom, and a bed.",
+      "x": 78,
+      "y": 73,
+      "icon": {
+        "id": "minecraft:bed"
+      },
+      "prerequisites": [
+        "b824278a-ac25-4f13-9c39-cff7f206d408"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:furnace"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:apple",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:wheat_seeds",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:wooden_axe"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

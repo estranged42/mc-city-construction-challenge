@@ -1,0 +1,401 @@
+{
+  "name": "Stage 3: Growth",
+  "description": "You have progressed to the iron age. You may now smelt iron, copper or tin, and use it for crafting. You may not use gold, lead, emeralds, diamonds or redstone for any purposes yet. You can collect them though.",
+  "quests": [
+    {
+      "uuid": "0ebdfc91-39fb-4b5f-ab37-e99c58b17b77",
+      "name": "Market District",
+      "description": "Construct a market district with the following buildings.  3 shops or stalls. A licensing office with a lobby, 2 offices, a document storage room and a banner representing your city out front.",
+      "x": 102,
+      "y": 90,
+      "icon": {
+        "id": "minecraft:gold_nugget"
+      },
+      "prerequisites": [
+        "2248c1b4-fb08-4586-ba79-d048624395f0"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Create a banner for your city.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:banner",
+                "damage": 15,
+                "nbt": "{BlockEntityTag:{Base:15}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:chest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:coal",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "151f9109-e6e0-48a1-aefe-448ab933e00f",
+      "name": "Forestry",
+      "description": "Create a controlled tree farm with at least 10 trees in it.",
+      "x": 130,
+      "y": 89,
+      "icon": {
+        "id": "minecraft:sapling"
+      },
+      "prerequisites": [
+        "2248c1b4-fb08-4586-ba79-d048624395f0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              },
+              "required": 10,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:hamburgerItem",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b4654cac-d847-4ac6-9e2b-3e0366715347",
+      "name": "Watchtowers",
+      "description": "Create watchtowers at all corners of your city wall (construct at least 2).",
+      "x": 75,
+      "y": 114,
+      "icon": {
+        "id": "minecraft:arrow"
+      },
+      "prerequisites": [
+        "0ebdfc91-39fb-4b5f-ab37-e99c58b17b77",
+        "6db3a857-9c7f-4e19-b03a-2e7a0730bfeb"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ladder"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:metal",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "harvestcraft:soybeanseedItem",
+          "amount": 4
+        },
+        {
+          "id": "harvestcraft:grapeseedItem",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:cactus",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2248c1b4-fb08-4586-ba79-d048624395f0",
+      "name": "A Propper Mine",
+      "description": "Create a mine shaft that is at least 20 blocks deep.  Whenever venturing into your mine you must have some sort of helmet on to protect you. Mine shafts must be supported with wooden beams every 10 blocks.",
+      "x": 78,
+      "y": 30,
+      "icon": {
+        "id": "minecraft:iron_pickaxe"
+      },
+      "prerequisites": [
+        "3a92e3f3-be4c-4e6c-815e-615e1939089b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 256,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:materials",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:clay_cast",
+          "nbt": "{PartType:\"tconstruct:pick_head\"}"
+        },
+        {
+          "id": "tconstruct:clay_cast",
+          "nbt": "{PartType:\"tconstruct:sword_blade\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6db3a857-9c7f-4e19-b03a-2e7a0730bfeb",
+      "name": "Mining District",
+      "description": "Construct a mining district near your mineshaft. In this area you should have a well for water, at least 1 house constructed, and one other community building (storage, crafting, etc).",
+      "x": 52,
+      "y": 89,
+      "icon": {
+        "id": "minecraft:anvil"
+      },
+      "prerequisites": [
+        "2248c1b4-fb08-4586-ba79-d048624395f0"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:well"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:crafting_table"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:cast_custom"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c742647-9dee-4f20-bfe9-9326e8176652",
+      "name": "City Walls",
+      "description": "Create a wall to enclose your city and protect it from attack. It must be safe from monsters within the bounds of your new wall.",
+      "x": 22,
+      "y": 89,
+      "icon": {
+        "id": "minecraft:cobblestone_wall"
+      },
+      "prerequisites": [
+        "2248c1b4-fb08-4586-ba79-d048624395f0"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone_wall"
+              },
+              "required": 256
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_axe"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:sapling",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:sapling",
+          "damage": 1,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:sapling",
+          "damage": 2,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfd0fe67-4263-40b3-b8ea-608c20024420",
+      "name": "Treasury",
+      "description": "As your city grows, your treasury dmands to be filled with more equipment for your citizens.",
+      "x": 75,
+      "y": 168,
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "prerequisites": [
+        "151f9109-e6e0-48a1-aefe-448ab933e00f",
+        "b4654cac-d847-4ac6-9e2b-3e0366715347",
+        "6c742647-9dee-4f20-bfe9-9326e8176652"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bucket"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_sword"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_shovel"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_axe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_hoe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:torch"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 64
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_helmet"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_chestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_leggings"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_boots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:blaze_rod",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

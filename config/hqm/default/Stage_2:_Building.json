@@ -1,0 +1,284 @@
+{
+  "name": "Stage 2: Building",
+  "description": "You may only use stone and wooden tools. You cannot use Iron or any metals yet.",
+  "quests": [
+    {
+      "uuid": "3a92e3f3-be4c-4e6c-815e-615e1939089b",
+      "name": "Feast or Fammine",
+      "description": "Time to start cooking. Gather some improved meals for your city.",
+      "x": 74,
+      "y": 141,
+      "icon": {
+        "id": "harvestcraft:stockItem"
+      },
+      "prerequisites": [
+        "98bd0294-2021-46cc-b051-b8d090956fe7",
+        "2c657fc4-b3bb-423e-9c8a-fd5b6d50f8dc",
+        "9c5c768f-57e6-48ec-89cf-3e37b6b1328e"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:saltItem"
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "harvestcraft:stockItem"
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "harvestcraft:potatosoupItem"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_pickaxe"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:reeds",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:melon_seeds",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c5c768f-57e6-48ec-89cf-3e37b6b1328e",
+      "name": "More Housing",
+      "description": "As your city grows, build another house for it.",
+      "x": 120,
+      "y": 81,
+      "icon": {
+        "id": "props:props",
+        "damage": 581
+      },
+      "prerequisites": [
+        "de52c0e9-41e4-4036-aecb-8ce63791cc23"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:log",
+          "damage": 1,
+          "amount": 32
+        },
+        {
+          "id": "minecraft:log2",
+          "damage": 1,
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "98bd0294-2021-46cc-b051-b8d090956fe7",
+      "name": "Stockpile I",
+      "description": "Your town is growing. Add the following to your treasury.",
+      "x": 75,
+      "y": 82,
+      "icon": {
+        "id": "minecraft:cobblestone"
+      },
+      "prerequisites": [
+        "de52c0e9-41e4-4036-aecb-8ce63791cc23"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 128
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_sword"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_shovel"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_axe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_hoe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:torch"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:leather_helmet"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potato",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:carrot",
+          "amount": 4
+        },
+        {
+          "id": "harvestcraft:potItem"
+        },
+        {
+          "id": "harvestcraft:freshwaterItem",
+          "amount": 10
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de52c0e9-41e4-4036-aecb-8ce63791cc23",
+      "name": "Town Hall",
+      "description": "Your town needs a central meeting hall.  Build a Town Hall that contains: a front door, a treasury, a large meeting room, and at least one other room (office, etc).",
+      "x": 75,
+      "y": 21,
+      "icon": {
+        "id": "props:props",
+        "damage": 581
+      },
+      "prerequisites": [
+        "13562251-9f83-4e4f-a406-500f17701ad8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:oak_stairs"
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stone_sword"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c657fc4-b3bb-423e-9c8a-fd5b6d50f8dc",
+      "name": "Livestock",
+      "description": "Create an animal pen and begin breeding farm animals.",
+      "x": 29,
+      "y": 80,
+      "icon": {
+        "id": "minecraft:leather"
+      },
+      "prerequisites": [
+        "de52c0e9-41e4-4036-aecb-8ce63791cc23"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Makes some more fences to create an animal pen.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "required": 24,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "longDescription": "Find some cows, breed them, and kill one for leather.",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 92
+              },
+              "mob": "Cow",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:leather"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

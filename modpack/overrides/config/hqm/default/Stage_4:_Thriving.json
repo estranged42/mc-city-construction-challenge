@@ -224,7 +224,7 @@
             },
             {
               "item": {
-                "id": "minecraft:written_book"
+                "id": "minecraft:writable_book"
               }
             }
           ]

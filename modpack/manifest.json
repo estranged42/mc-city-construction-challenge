@@ -1,0 +1,139 @@
+{
+  "minecraft": {
+    "version": "1.10.2",
+    "modLoaders": [
+      {
+        "id": "forge-12.18.3.2185",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "fischco neptune",
+  "version": "1.1",
+  "author": "estranged",
+  "files": [
+    {
+      "projectID": 74924,
+      "fileID": 2353326,
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 2353329,
+      "required": true
+    },
+    {
+      "projectID": 230497,
+      "fileID": 2354330,
+      "required": true
+    },
+    {
+      "projectID": 223852,
+      "fileID": 2353147,
+      "required": true
+    },
+    {
+      "projectID": 73488,
+      "fileID": 2301859,
+      "required": true
+    },
+    {
+      "projectID": 228756,
+      "fileID": 2331308,
+      "required": true
+    },
+    {
+      "projectID": 231868,
+      "fileID": 2346434,
+      "required": true
+    },
+    {
+      "projectID": 64578,
+      "fileID": 2353193,
+      "required": true
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2341593,
+      "required": true
+    },
+    {
+      "projectID": 233105,
+      "fileID": 2337887,
+      "required": true
+    },
+    {
+      "projectID": 231951,
+      "fileID": 2351665,
+      "required": true
+    },
+    {
+      "projectID": 224641,
+      "fileID": 2346481,
+      "required": true
+    },
+    {
+      "projectID": 227083,
+      "fileID": 2353526,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 2353931,
+      "required": true
+    },
+    {
+      "projectID": 79616,
+      "fileID": 2355871,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 2354561,
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 2351189,
+      "required": true
+    },
+    {
+      "projectID": 226670,
+      "fileID": 2312553,
+      "required": true
+    },
+    {
+      "projectID": 225561,
+      "fileID": 2352596,
+      "required": true
+    },
+    {
+      "projectID": 59751,
+      "fileID": 2354341,
+      "required": true
+    },
+    {
+      "projectID": 242638,
+      "fileID": 2353972,
+      "required": true
+    },
+    {
+      "projectID": 240633,
+      "fileID": 2369406,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 2328371,
+      "required": true
+    },
+    {
+      "projectID": 77027,
+      "fileID": 2328625,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}

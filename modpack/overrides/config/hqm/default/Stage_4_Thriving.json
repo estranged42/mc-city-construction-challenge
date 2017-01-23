@@ -1,5 +1,5 @@
 {
-  "name": "Stage 4: Thriving",
+  "name": "Stage 4 Thriving",
   "description": "Your city is growing! You may now use all metals for crafting. You may use redstone now. You may only create a single Diamond tool however.",
   "quests": [
     {
@@ -108,29 +108,25 @@
             },
             {
               "item": {
-                "id": "tconstruct:broadsword",
-                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:724,HarvestLevel:3,Attack:7.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:724,HarvestLevel:3,Attack:7.0f},Special:{Categories:[0:\"weapon\",1:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+                "id": "minecraft:iron_sword"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "tconstruct:pickaxe",
-                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Special:{Categories:[0:\"harvest\",1:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+                "id": "minecraft:iron_pickaxe"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "tconstruct:shovel",
-                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.0f},Special:{Categories:[0:\"harvest\",1:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+                "id": "minecraft:iron_shovel"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "tconstruct:hatchet",
-                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.5f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:659,HarvestLevel:3,Attack:6.5f},Special:{Categories:[0:\"weapon\",1:\"harvest\",2:\"tool\"]},TinkerData:{Materials:[0:\"steel\",1:\"steel\",2:\"steel\"],Modifiers:[]},Modifiers:[0:{identifier:\"stiff\",color:-5789785,level:1},1:{identifier:\"sharp\",color:-5789785,level:1}],Traits:[0:\"stiff\",1:\"sharp\"]}"
+                "id": "minecraft:iron_axe"
               },
               "precision": "NBT_FUZZY"
             },
